@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "deep-image-classifier.fullname" . }}
+  name: {{ .Values.service.name }}
   labels:
     {{- include "deep-image-classifier.labels" . | nindent 4 }}
 spec:
