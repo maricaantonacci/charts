@@ -1,25 +1,25 @@
 apiVersion: v1
 entries:
+  deep-image-classifier:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-09-28T10:54:57.444887+02:00"
+    description: A Helm chart for Kubernetes
+    digest: e8c0ea29dc82e164147cd782a532ef4201936f0dd70881f963debb93f30a080a
+    name: deep-image-classifier
+    type: application
+    urls:
+    - https://maricaantonacci.github.io/charts/docs/deep-image-classifier-0.1.0.tgz
+    version: 0.1.0
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-29T17:21:46.831869+02:00"
+    created: "2021-09-28T10:54:57.445664+02:00"
     description: A Helm chart for Kubernetes
     digest: 84695f6c5fa6e928d8cb8d0097bf393b824375bee6bda82e2ca10af520262a62
     name: mychart
     type: application
     urls:
-    - https://maricaantonacci.github.io/charts/mychart-0.1.0.tgz
+    - https://maricaantonacci.github.io/charts/docs/mychart-0.1.0.tgz
     version: 0.1.0
-  deep-image-classifier:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2021-09-28T10:03:29.430332+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 5bbdb69af3a9a0ba84568cf81d4a66db65ac2f39078d045231d29b9b2fc48545
-    name: deep-image-classifier
-    type: application
-    urls:
-    - https://maricaantonacci.github.io/charts/deep-image-classifier-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-09-28T10:03:29.427214+02:00"
+generated: "2021-09-28T10:54:57.441204+02:00"
