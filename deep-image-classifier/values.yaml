@@ -39,6 +39,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 5000
+  name: appsvc
 
 ingress:
   enabled: false
