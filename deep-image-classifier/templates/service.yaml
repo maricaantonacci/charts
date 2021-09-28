@@ -7,9 +7,9 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-    - name: deep-api
-      port: {{ .Values.service.port }}
-      targetPort: deep-api
+    - port: {{ .Values.service.port }}
+      targetPort: http
       protocol: TCP
+      name: http
   selector:
     {{- include "deep-image-classifier.selectorLabels" . | nindent 4 }}
