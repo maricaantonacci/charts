@@ -11,4 +11,15 @@ entries:
     urls:
     - https://maricaantonacci.github.io/charts/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-29T17:21:46.829003+02:00"
+  deep-image-classifier:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-09-28T10:03:29.430332+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 5bbdb69af3a9a0ba84568cf81d4a66db65ac2f39078d045231d29b9b2fc48545
+    name: deep-image-classifier
+    type: application
+    urls:
+    - https://maricaantonacci.github.io/charts/deep-image-classifier-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-09-28T10:03:29.427214+02:00"

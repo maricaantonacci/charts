@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "deep-image-classifier.fullname" . }}-test-connection"
+  labels:
+    {{- include "deep-image-classifier.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "deep-image-classifier.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

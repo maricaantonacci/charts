@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "deep-image-classifier.fullname" . }}
+  labels:
+    {{- include "deep-image-classifier.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "deep-image-classifier.selectorLabels" . | nindent 4 }}
