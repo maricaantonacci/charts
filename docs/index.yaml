@@ -9,7 +9,7 @@ entries:
     name: deep-image-classifier
     type: application
     urls:
-    - https://maricaantonacci.github.io/charts/docs/deep-image-classifier-0.1.0.tgz
+    - https://maricaantonacci.github.io/charts/deep-image-classifier-0.1.0.tgz
     version: 0.1.0
   mychart:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: mychart
     type: application
     urls:
-    - https://maricaantonacci.github.io/charts/docs/mychart-0.1.0.tgz
+    - https://maricaantonacci.github.io/charts/mychart-0.1.0.tgz
     version: 0.1.0
 generated: "2021-09-28T10:54:57.441204+02:00"
