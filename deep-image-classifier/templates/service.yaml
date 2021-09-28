@@ -9,8 +9,7 @@ spec:
   ports:
     - name: deep-api
       port: {{ .Values.service.port }}
-      targetPort: http
+      targetPort: deep-api
       protocol: TCP
-      name: http
   selector:
     {{- include "deep-image-classifier.selectorLabels" . | nindent 4 }}
